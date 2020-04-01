@@ -1,17 +1,24 @@
-import instance, { fib as fibRust, strTest } from "./rust-app/src/fib.rs";
-import { fib as fibJs } from "./js-app/fib";
+// import { foo } from "./rust-app/Cargo.toml";
 
-window.test = () => {
-  console.time("init");
-  console.timeEnd("init");
+import { fun } from "./rust-app/Cargo.toml";
+console.log(fun('project'));
 
-  console.time("fibJs");
-  console.log(fibJs(20));
-  console.timeEnd("fibJs");
+// import instance, {
+//   fib as fibRust
+// } from "./rust-app/src/main.rs";
+// import { fib as fibJs } from "./js-app/fib";
 
-  console.time("fibRust");
-  console.log(fibRust(20));
-  console.timeEnd("fibRust");
-};
+// window.test = () => {
+//   console.time("init");
+//   console.timeEnd("init");
 
-window.test();
+//   console.time("fibJs");
+//   console.log(fibJs(20));
+//   console.timeEnd("fibJs");
+
+//   console.time("fibRust");
+//   console.log(fibRust(20));
+//   console.timeEnd("fibRust");
+// };
+
+// window.test();

@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-dist": "^0.0.6",
+    "parcel-plugin-wasm.rs": "^1.2.15"
+  },
+  "name": "prust",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:entrptaher/exp-rust-js-fib.git",
+  "author": "Taher <entrptaher@gmail.com>",
+  "license": "MIT"
+}
