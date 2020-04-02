@@ -8,5 +8,5 @@ edition = "2018"
 wasm-bindgen = "0.2.60"
 
 [lib]
-path="src/lib.rs"
+path="src/fib.rs"
 crate-type = [ "cdylib" ]
